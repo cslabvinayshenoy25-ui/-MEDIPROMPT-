@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MediPrompt • MediBee</title>
+  <style>
+    :root {
+      --brand: #14b8a6;
+      --brand-2: #60a5fa;
+      --ink: #0a1a2b;
+      --muted: #4b5b6b;
+      --bg: #f9fcff;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: 'Segoe UI', Arial, sans-serif; background: var(--bg); color: var(--ink); line-height: 1.6; }
+    header { background: linear-gradient(90deg, var(--brand), var(--brand-2)); color: white; padding: 2rem; text-align: center; }
+    header h1 { font-size: 2.5rem; }
+    header p { font-size: 1.2rem; margin-top: .5rem; }
+    nav { margin-top: 1rem; }
+    nav a { color: white; margin: 0 1rem; text-decoration: none; font-weight: 500; }
+    section { padding: 4rem 2rem; max-width: 1000px; margin: auto; }
+    section h2 { text-align: center; font-size: 2rem; color: var(--brand); margin-bottom: 1.5rem; }
+    .features, .benefits { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1.5rem; }
+    .card { background: white; padding: 1.5rem; border-radius: 1rem; box-shadow: 0 4px 15px rgba(0,0,0,0.1); }
+    .product { text-align: center; }
+    .product h3 { font-size: 1.8rem; color: var(--brand-2); }
+    .team { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 1rem; text-align: center; }
+    .member { background: white; padding: 1rem; border-radius: .75rem; box-shadow: 0 2px 10px rgba(0,0,0,0.08); }
+    footer { background: var(--ink); color: white; text-align: center; padding: 2rem; margin-top: 2rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>MediPrompt</h1>
+    <p>Prompt Care. Smarter Health.</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#product">Product</a>
+      <a href="#benefits">Benefits</a>
+      <a href="#team">Team</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p style="text-align:center; max-width:750px; margin:auto;">MediPrompt is a health-tech startup dedicated to building smart, reliable, and affordable healthcare solutions. Our mission is to ensure timely care through innovative products like MediBee.</p>
+  </section>
+
+  <section id="product">
+    <h2>Our Product – MediBee 🐝</h2>
+    <div class="product">
+      <h3>Buzzing to Remind, Caring to Heal.</h3>
+      <p style="margin-top:1rem;">MediBee is a smart medicine reminder box that ensures you never miss a dose. It is designed to be user-friendly, reliable, and suitable for all age groups.</p>
+    </div>
+    <div class="features" style="margin-top:2rem;">
+      <div class="card">✅ Smart medicine reminders</div>
+      <div class="card">✅ Compact & portable design</div>
+      <div class="card">✅ Multiple dose scheduling</div>
+      <div class="card">✅ Battery backup</div>
+      <div class="card">✅ Easy refill system</div>
+    </div>
+  </section>
+
+  <section id="how">
+    <h2>How It Works</h2>
+    <div class="features">
+      <div class="card">1️⃣ Load medicines into compartments</div>
+      <div class="card">2️⃣ Set reminder time</div>
+      <div class="card">3️⃣ Get notified & take your dose</div>
+    </div>
+  </section>
+
+  <section id="benefits">
+    <h2>Benefits</h2>
+    <div class="benefits">
+      <div class="card">✔ Never miss a dose</div>
+      <div class="card">✔ Elderly friendly</div>
+      <div class="card">✔ Caretaker peace of mind</div>
+      <div class="card">✔ Affordable health tech</div>
+    </div>
+  </section>
+
+  <section id="team">
+    <h2>Meet Our Team</h2>
+    <div class="team">
+      <div class="member"><strong>CEO</strong><br/>Member 1</div>
+      <div class="member"><strong>CTO</strong><br/>Member 2</div>
+      <div class="member"><strong>COO</strong><br/>Member 3</div>
+      <div class="member"><strong>Product Lead</strong><br/>Member 4</div>
+      <div class="member"><strong>Design Lead</strong><br/>Member 5</div>
+      <div class="member"><strong>Marketing Lead</strong><br/>Member 6</div>
+      <div class="member"><strong>Finance Head</strong><br/>Member 7</div>
+      <div class="member"><strong>Operations</strong><br/>Member 8</div>
+      <div class="member"><strong>Quality Control</strong><br/>Member 9</div>
+      <div class="member"><strong>R&D</strong><br/>Member 10</div>
+      <div class="member"><strong>Sales</strong><br/>Member 11</div>
+      <div class="member"><strong>Support</strong><br/>Member 12</div>
+    </div>
+  </section>
+
+  <footer id="contact">
+    <p>Contact us at: <a href="mailto:info@mediprompt.com" style="color:#60a5fa;">info@mediprompt.com</a></p>
+    <p>&copy; 2025 MediPrompt. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
+8:05 PM 9/2/2025
