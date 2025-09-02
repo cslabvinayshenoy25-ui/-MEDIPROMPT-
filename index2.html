@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>MediPrompt • Company Intro</title>
+  <meta name="description" content="Animated intro page for MediPrompt – company name, product MediBee, and tagline." />
+  <style>
+    :root {
+      --bg1: #e8f7ff;
+      --bg2: #f4fff6;
+      --ink: #0a1a2b;
+      --muted: #4b5b6b;
+      --brand: #14b8a6;
+      --brand-2: #60a5fa;
+      --shadow: 0 20px 60px rgba(10, 26, 43, .12);
+    }
+
+    * { box-sizing: border-box; }
+    html, body { height: 100%; }
+
+    body {
+      margin: 0;
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, "Noto Sans";
+      color: var(--ink);
+      background: radial-gradient(1200px 800px at 15% 10%, var(--bg2), transparent 60%),
+                  radial-gradient(1000px 700px at 85% 90%, var(--bg1), transparent 60%),
+                  linear-gradient(180deg, #ffffff, #f7fbff 60%);
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      text-align: center;
+      padding: 2rem;
+    }
+
+    .logo {
+      font-size: 3rem;
+      font-weight: 700;
+      color: var(--brand);
+      animation: fadeInDown 1.5s ease-out;
+    }
+
+    .tagline {
+      font-size: 1.25rem;
+      color: var(--muted);
+      margin-top: .5rem;
+      animation: fadeInUp 2s ease-out;
+    }
+
+    .product {
+      margin-top: 2rem;
+      font-size: 2rem;
+      font-weight: 600;
+      color: var(--brand-2);
+      animation: fadeIn 2.5s ease-out;
+    }
+
+    .product-tagline {
+      font-size: 1.1rem;
+      color: var(--muted);
+      margin-top: .25rem;
+      animation: fadeInUp 3s ease-out;
+    }
+
+    @keyframes fadeInDown {
+      from { opacity: 0; transform: translateY(-40px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(40px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+  </style>
+</head>
+<body>
+  <div class="logo">MediPrompt</div>
+  <div class="tagline">Prompt Care. Smarter Health.</div>
+
+  <div class="product">MediBee</div>
+  <div class="product-tagline">Buzzing to Remind, Caring to Heal.</div>
+</body>
+</html>
